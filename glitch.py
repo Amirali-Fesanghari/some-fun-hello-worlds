@@ -9,7 +9,7 @@ colors = [Fore.RED, Fore.GREEN, Fore.YELLOW, Fore.BLUE, Fore.MAGENTA, Fore.CYAN]
 
 
 
-def searching_text(text, delay=0.03, loop=0):
+def searching_text(text, delay=0.05, loop=0):
     displayed = [' '] * len(text)
     colored_line = [' '] * len(text)
     finall_text = ' '
