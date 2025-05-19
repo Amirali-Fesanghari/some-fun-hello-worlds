@@ -9,4 +9,6 @@ def printing_hello_world(text ,rate, r,g,b):
         print(Style.BRIGHT + Fore.YELLOW + Back.BLUE + index ,end="", flush=True)
         time.sleep(uniform(speeds[0],speeds[1]))
 
-printing_hello_world("Hello",0.45,0,255,0)
+
+user_text = str(input("enter the word to be printed : "))
+printing_hello_world(user_text,0.45,0,255,0)
